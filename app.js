@@ -52,9 +52,8 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 
-app.listen(2000, function(){
-
-var d = new Date();
-var n = d.toLocaleTimeString();
-   console.log("The YelpCamp Server Has Started! Time: " + n);
+app.listen(process.env.PORT, process.env.IP, function(){
+    var d = new Date();
+    var n = d.toLocaleTimeString();
+       console.log("The YelpCamp Server Has Started! Time: " + n);
 });
