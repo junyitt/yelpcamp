@@ -1,4 +1,8 @@
-#YelpCamp
+# YelpCamp
+
+## Visit Heroku version of the website here:  
+https://yelpcampjy.herokuapp.com/
+
 
 ##Initial Setup
 * Add Landing Page
